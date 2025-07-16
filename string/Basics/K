@@ -1,0 +1,28 @@
+public class k{
+    public static void main(String args[]){
+        String s1="hello";
+        String s2="hello";
+        String s3=new String ("hello");
+        System.out.print(s1==s2);
+        System.out.println(s2==s3);
+        System.out.println(s1.equals(s2));
+        System.out.println(s2.equals(s3));
+
+        System.out.println("new");
+        String s="    a good  example ";
+        // System.out.println(s);
+        String str=s.trim();
+        // System.out.println(str);
+        String arr[]=str.split(" " );
+        System.out.println(arr.length);
+        for(String st:arr){
+            System.out.println(st);
+
+        }
+        System.out.println("newww.....");
+        String str2="3456";
+        int ch=str2.charAt(0);
+        System.out.println(ch);
+
+    }
+}
